@@ -1,1 +1,6 @@
 language : groovy
+before_cache:
+    -rm -f C:\Users\william\Desktop\GL51\Micronaute\projet-gl51\.gradle\4.10\fileHashes\fileHashes.lock
+cache:
+    - C:\Users\william\Desktop\GL51\Micronaute\projet-gl51\.gradle\caches\
+    - C:\Users\william\Desktop\GL51\Micronaute\projet-gl51\.gradle\wrapper\
